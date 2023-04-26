@@ -3,12 +3,12 @@
 
 
 1. Clone this repository
-2. Run the following commands in your terminal :
+2. Run these in your terminal :
 ```
 g++ server.cpp -lpthread -o server
 g++ client.cpp -lpthread -o client
 ```
-3. To run the server application, use this command in the terminal :
+3. for running the server application type this in the terminal :
 ```
 ./server
 ```
@@ -18,4 +18,4 @@ g++ client.cpp -lpthread -o client
 ./client
 ```
 
-5. For opening multiple client applications, repeat step 4.
+5. Repeat step 4,For multiple client applications.
