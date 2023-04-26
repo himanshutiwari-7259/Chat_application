@@ -1,15 +1,21 @@
-# Chat_application
-How to run
-1.Clone this repository
+ Chatroom Application
 
-2.Run these commands in your terminal :
+
+
+1. Clone this repository
+2. Run the following commands in your terminal :
+```
 g++ server.cpp -lpthread -o server
 g++ client.cpp -lpthread -o client
-
-3.Now,run Client application using this command:
-./client
-
-4.For running server application use this command in terminal:
+```
+3. To run the server application, use this command in the terminal :
+```
 ./server
+```
 
-5. Repeat step 4,for multiple client application.
+4. Now, open another terminal and use this command to run the client application :
+```
+./client
+```
+
+5. For opening multiple client applications, repeat step 4.
